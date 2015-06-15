@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Minha página de Login</title>
+	</head>
+	<body>
+		
+		<img alt="Logotipo IFPB" 
+			width="20%"
+			src="resources/imagens/ifpb_logo.png">
+		
+		<form action="LoginServlet.do" method="get">
+		
+			<img alt="Usuário" src="resources/imagens/user.png">
+			
+			<select name="perfil">
+				<option value="1">Professor</option>
+				<option value="2">Aluno</option>
+			</select>
+			
+			<label> Login 
+				<input type="text" name="usuario"> 
+			</label>
+			<label> Senha 
+				<input type="password" name="senha">
+			</label>
+			
+			<input type="submit" value="Enviar">
+		</form>
+		
+	</body>
+</html>
